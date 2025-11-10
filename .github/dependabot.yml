@@ -10,3 +10,28 @@ updates:
     schedule:
       interval: "daily"
       
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /maven-springboot
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /maven-springweb
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /
+    schedule:
+      interval: daily
